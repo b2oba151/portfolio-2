@@ -218,11 +218,9 @@ body {
     padding-bottom: 70px;
 }
 
-
 .sub-title span {
     color: #00abf0;
 }
-
 
 .container {
     padding: 90px;
@@ -257,7 +255,6 @@ body {
     font-weight: 500;
     margin-bottom: 15px;
 }
-
 
 .services-list div a {
     text-decoration: none;
@@ -294,11 +291,6 @@ body {
     transform: translateY(-10px);
 }
 
-section {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .containe1 {
     width: 600px;
     height: 500px;
@@ -307,7 +299,6 @@ section {
 }
 
 .heading1 {
-
     text-align: center;
     text-decoration: underline;
     text-underline-offset: 10px;
@@ -320,7 +311,7 @@ section {
 }
 
 .Technical-bars .bar {
-    margin-top: 40px 0;
+    margin-top: 40px;
 }
 
 .Technical-bars .bar:first-child{
@@ -357,7 +348,6 @@ section {
     100% {
         transform: scaleX(1);
     }
-    
 }
 
 .Technical-bars .bar .progress-line span {
@@ -369,8 +359,6 @@ section {
     transform: scaleX(0);
     transform-origin: left;
 }
-
-
 
 .progress-line.html span {
     width: 90%;
@@ -401,28 +389,16 @@ section {
     opacity: 0;
 }
 
-.progress-line.html span:after {
-    content: "90%";
-}
-.progress-line.css span:after {
-    content: "80%";
-}
-.progress-line.javascript span:after {
-    content: "60%";
-}
-.progress-line.cpp span:after {
-    content: "50%";
-}
-.progress-line.python span:after {
-    content: "60%";
-}
-
+.progress-line.html span:after { content: "90%";}
+.progress-line.css span:after { content: "80%";}
+.progress-line.javascript span:after { content: "60%";}
+.progress-line.cpp span:after { content: "50%";}
+.progress-line.python span:after { content: "60%";}
 
 @keyframes showText {
     100% {
         opacity: 1;
     }
-    
 }
 
 .radial-bars{
@@ -459,12 +435,10 @@ section {
     animation: animate-bar 1s linear forwards;
 }
 
-
 @keyframes animate-bar {
     100% {
         stroke-dashoffset: 0;
     }
-    
 }
 
 .path {
@@ -485,8 +459,6 @@ section {
 @keyframes animate-path2 { 100% { stroke-dashoffset: 175; } }
 @keyframes animate-path3 { 100% { stroke-dashoffset: 125; } }
 @keyframes animate-path4 { 100% { stroke-dashoffset: 75; } }
-
-
 
 .radial-bar .percentage{
     position: absolute;
@@ -514,34 +486,27 @@ section {
 
 
 
-
-
-
+/* ------------------------------------ */
 @keyframes slideRight {
     0% {
         opacity: 0;
         transform: translateX(-100px);
     }
-
     100% {
         opacity: 1;
         transform: translateX(0);
     }
-
 }
-
 
 @keyframes slideLeft {
     0% {
         opacity: 0;
         transform: translateX(100px);
     }
-
     100% {
         opacity: 1;
         transform: translateX(0);
     }
-
 }
 
 @keyframes slideTop {
@@ -562,10 +527,8 @@ section {
         opacity: 0;
         transform: translateY(100px);
     }
-
     100% {
         opacity: 1;
         transform: translateY(0);
     }
-
 }
