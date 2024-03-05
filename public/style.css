@@ -506,6 +506,11 @@ section.skills {
 .portfolio-content{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(359px, auto));
+    gap: 2.5rem;
+    margin-top: 5rem;
+    padding: 0 2rem;
+    justify-content: center;
+    align-items: center
 }
 
 .row{
