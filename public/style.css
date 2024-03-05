@@ -505,7 +505,7 @@ section.skills {
 
 .portfolio-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(359px, auto));
 }
 
 .row{
@@ -542,7 +542,7 @@ section.skills {
 
 .layer h5{
     color: black;
-    font-size: 1rem;
+    font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
 }
@@ -601,7 +601,7 @@ section.skills {
 .contact-text p{
     color: rgb(177, 177, 177);
     font-size: 20px;
-    line-height: 300px;
+    line-height: 30px;
     margin-bottom: 2rem;
 }
 
