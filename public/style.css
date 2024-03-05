@@ -287,12 +287,18 @@ body {
         0 0 100px cyan;
 }
 
-.services-list div.hover {
+.services-list div:hover {
     transform: translateY(-10px);
 }
 
-.containe1 {
-    width: 600px;
+section.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.container1 {
+    width: 700px;
     height: 500px;
     padding: 75px 90px;
     margin-left: 120px;
